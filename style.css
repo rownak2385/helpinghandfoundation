@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-box {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top left;
+    position: relative;
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 30vh;
+}
+
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.donate-button {
+    color: aliceblue;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #ff0048;
+    padding: 18px 38px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+}
+
+.donate-button:hover,
+.donate-button:active {
+    color: #ff0048;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.button-div {
+    height: 200px;
+    position: relative;
+}
+
+.donate-button-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 34%;
+}
+
+
+
+.donate-title {
+    font-size: 40px;
+    text-align: center;
+    color: #111;
+    margin: 0;
+    padding-top: 20vh;
+}
+
+.donate-subtitle {
+    font-size: 20px;
+    text-align: center;
+    color: #111;
+}
+
+.select-amount {
+    position: relative;
+}
+
+.amount-box {
+    display: flex;
+    align-items: center;
+}
+
+.boxes {
+    background-color: aliceblue;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid #ff0048;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boxes:hover {
+    background-color: #ff0048;
+    color: aliceblue;
+}
+
+.boxes:active {
+    background-color: #ff0048;
+    color: aliceblue;
+}
+
+.boxes:focus {
+    background-color: #ff0048;
+    color: aliceblue;
+}
+
+.money-amount {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.other-amount {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.input-other {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #111;
+}
+
+.button-div {
+    margin: 25px;
+    width: 100%;
+    align-items: center;
+}
+
+.plan-title {
+    font-size: 40px;
+    text-align: center;
+    color: #111;
+    margin: 0;
+    padding-top: 15vh;
+}
+
+.plan-subtitle {
+    font-size: 20px;
+    text-align: center;
+    color: #111;
+}
+
+.plan-boxes {
+    display: flex;
+    align-items: center;
+}
+
+.plans {
+    width: 350px;
+    margin: 25px;
+    padding: 25px;
+}
+
+.plans1 {
+    background-color: #edf5f6;
+    border-radius: 5px;
+}
+
+.plans2 {
+    background-color: #ffeeee;
+    border-radius: 5px;
+}
+
+.plans3 {
+    background-color: #fff4d6;
+    border-radius: 5px;
+}
+
+.team-members {
+    display: flex;
+    align-items: center;
+}
+
+.member-title {
+    font-size: 40px;
+    text-align: center;
+    color: #111;
+    margin: 0;
+    padding-top: 15vh;
+}
+
+.member-subtitle {
+    font-size: 20px;
+    text-align: center;
+    color: #111;
+}
+
+.members {
+    width: 260px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.member-pic {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.email-newsletter {
+    background-color: #c8bfa8;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.input-mail {
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: aliceblue;
+    color: #ff0048;
+    font-size: 24px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 80px;
+}
+
+.email-button {
+    width: 30%;
+    height: 50px;
+    font-size: 24px;
+    background-color: #ff0048;
+    border: none;
+    color: aliceblue;
+    border-radius: 50px;
+}
+
+.mail-title {
+    font-size: 40px;
+    text-align: center;
+    color: #111;
+    margin: 0;
+    padding-top: 15vh;
+}
+
+.mail-subtitle {
+    font-size: 20px;
+    text-align: center;
+    color: #111;
+}
+
+.newsletter {
+    padding-bottom: 10vh;
+}
+
+
+
+footer {
+    background-color: #111;
+    height: 30vh;
+}
+
+.footer-text {
+    padding-top: 30px;
+}
+
+.footer-title {
+    font-size: 25px;
+    text-align: center;
+    color: #ff0048;
+    margin-bottom: 0;
+}
+
+.footer-subtitle {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    margin-top: 0;
+}
